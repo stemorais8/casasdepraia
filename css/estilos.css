@@ -1,0 +1,59 @@
+/*Estilização do BODY da página*/
+body{
+    margin: 0;
+    border: 0; 
+    font-family: 'Tahoma', 'Arial';
+}
+
+/*EStilização do HEADER da página*/
+header{
+    background-color: rgb(238, 228, 228);
+}
+
+.logo {
+    width: 20%;
+}
+/*Estilização do MENU no site*/
+nav{
+    color: white;
+    font-size: 28;
+    right: 100px;
+    top: 50px; 
+    position : absolute 
+}
+
+nav li {
+    display: inline; 
+    margin-right: 40px;
+}
+
+/* Estilização da DIV do header*/
+.divHeader {
+    position: relative;
+
+}
+.banner {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    border: 0;
+    object-fit: cover;
+}
+
+/*Estilização da sessão SOBRE NÓS*/
+.sobre_nos{
+    margin: 0;
+    text-align: justify; 
+    width: 80%;
+    margin-left: 20%;
+}   
+.img_sobrenos {
+    width: 20%;
+    float: left;
+    margin-right:10px; 
+}
+
+.titulo_sobrenos{
+    text-align: center;
+    clear: left;
+}
