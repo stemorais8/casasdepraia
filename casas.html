@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link href="css/estilos_casas.css" rel="stylesheet"/>
+        <meta charset="UTF-8"/>
+        <title> Casas Carandás e Palmeiras </title>
+        <script> 
+
+            alert("Conheça as casas ")
+            data=new Date
+            dia=new Array("Domingo", " Segunda-feira", "Terça-feira", " Quarta-feira" , "Quinta-feira", "Sexta-feira", "Sábado"); 
+            mes=new Array("Janeiro", " Fevereiro", "Março", " Abril" , "Maio", "Junho", "Julho ", "Agosto", "Setembro", "Outubro" , "Novembro", "Dezembro"); 
+
+         //função para abrir a pop de detalhes das casas 
+         function abrirDetalhes(nome, imagem, descricao ){
+            const url= `pop_casas.html?nomeProd=${encodeURIComponent(nome)}&imagemProd=${encodeURIComponent(imagem)}&descricaoProd=${encodeURIComponent(descricao)}`
+            window.open(url, "_blank ", " width= 800, height = 700")
+         }
+
+           
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class= "divHeader">
+                <img src="img/meulogo.png" title="Casas carandas palmeiras" class="logo"/>
+                <nav>
+                    <ul>
+                            <li><a href= "index.html">Home </a></li>  
+                            <li>Casas</li>
+                            <li>Contato</li>
+                    </ul>
+                </nav>
+            </div> 
+        <main>
+         <!--Título-->
+         <ul class="casas-titulo">
+            <li class = "casas-item" > Casas</li>
+         </ul>
+         <p class ="texto-casas "> 
+            <script> 
+                 document.write(dia[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear()) ;
+            </script> 
+         <p class = "texto-casas"> 
+            Temporada, feriados ou finais de semana, temos as casas ideais para você! 
+         </p>
+        </main>
+
+        <div class = "container">
+            <div class=" card" onclick = "abrirDetalhes('Casa Carandas', 'img/imagemdapgcasas.jpeg','descrição do produto')"> 
+            <img src = "img/imagemdapgcasas.jpeg"/>
+                <h2>    Casa Carandás </h2>  
+                <p> Conheça por completo a casa  </p>
+            </div>
+
+            <div class=" card"> 
+                <img src = "img/img 2emeio.jpeg"/>
+                <h2>     Casa Palmeiras </h2>  
+                <p> Conheça por completo a casa </p>
+            </div>
+        </div>
+
+            <!--Rodapé-->
+            <footer>
+                <img src="img/meulogo.png" title="Casas carandas palmeiras" class="logofooter"/>
+                <link rel="stylesheet" href="https://youtube.com/shorts/HF6d-2XjFy8?si=ct3E_mFC9Wo8ZtH8">
+                <div class ="Midia">
+                    <p>
+                    Para mais informações:  
+                    <i class="fa-brands fa-whatsapp"></i> (11) 91294-2109   |
+                    <i class="fa-brands fa-instagram"></i> @casas.carandasepalmeiras </p>
+                </div>
+            </footer>
+
+        </header>    
+    </body>
+</html>
+        

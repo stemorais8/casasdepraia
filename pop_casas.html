@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>  Casas Carandás e Palmeiras </title>
+        </head>
+        <body>
+            <main>
+                <div>
+                    <h1 id="nome-casa"> Título </h1>
+                    <img id="imagem-casa"/>
+                    <p id ="descricao-casa"> Descrição das Casas </p>
+                    <!-- Preenchimento das informações-->
+                     <script>
+                        //função para capturar os parametros 
+                        function getParametros(info){
+                            const urlParametros = new URLSearchParams(window.location.search); 
+                            return urlParametros.get(info);
+                        }
+                        //prenche as info na pop 
+                        document.getElementById("nome-casa").textContent = getParametros("nomeProd"); 
+                        document.getElementById("imagem-casa"). src = getParametros("imagemProd"); 
+                        document.getElementById("descricao-casa").textContent= getParametros("desricaoProd"); 
+                     </script>
+                <div>
+            <main>
+        <body>
+<html>
