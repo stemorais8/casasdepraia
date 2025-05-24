@@ -16,7 +16,7 @@ body{
 
 /*EStilização do HEADER da página*/
 header{
-    background: linear-gradient( #A0B9AF,#CADDE1, #FFFFFF);
+    background: linear-gradient(white);
 }
 .logo {
     width: 13%;
