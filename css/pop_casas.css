@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização da pop de detalhes*/
+.pop{
+    margin: 0;
+}
+.pop img {
+    width: 600;
+    height: 360;
+
+}
+.pop p { 
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center; 
+    font-family: 'Century Gothic', 'Arial';
+    color:rgb(251, 251, 255); 
+}
+.pop p {
+    padding: 2% 0 9% 7%; 
+    margin: 0;
+    white-space: pre-line 
+}
+.pop {
+    margin: 0;
+    background-color: #b3c5b4; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+.titulo-pop {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Century Gothic', 'Arial';
+    color: rgb(251, 251, 255);
+    padding: 2% 0 9% 7%;
+    margin: 0;
+    white-space: pre-line;
+}

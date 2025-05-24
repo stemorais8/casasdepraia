@@ -3,7 +3,8 @@ body{
     margin: 0;
     border: 0; 
     font-family: 'Century Gothic', 'Arial';
-    color:rgb(121, 121, 121);
+    color:rgb(136, 134, 134);
+    font-weight: bold;
    
 }
 
@@ -15,9 +16,8 @@ body{
 
 /*EStilização do HEADER da página*/
 header{
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient( #A0B9AF,#CADDE1, #FFFFFF);
 }
-
 .logo {
     width: 13%;
 }
@@ -46,7 +46,7 @@ nav li {
 .casas-titulo{
     font-size: 25px; 
     font-weight: bold;
-    color: rgb(163, 163, 163);
+    color: #487034;
     list-style: none;
     font-family: 'Century Gothic', 'Arial';
 }
@@ -93,7 +93,7 @@ nav li {
 
 /*Estilização do FOOTER*/
 .logofooter{
-    width: 15%;
+    width: 13%;
     /* padding-left: 3%; */
     /* display : inline-block;  */
     position: relative;
@@ -105,11 +105,11 @@ footer {
     display : inline-block; 
 
     width: 100%; 
-    font-size: 25px; 
-    background: linear-gradient( #A0B9AF,#CADDE1, #FFFFFF);
-   
-
+    font-size: 25px;
+    
 }
+
+
 .Midia {
     font-family: 'Century Gothic', 'Arial';
     font-size: 25px; /* Mantém o tamanho original */
@@ -120,6 +120,6 @@ footer {
 
 .fa-brands {
     font-family: "Font Awesome 6 Brands"; /* Evita que altere a fonte do texto */
-    font-size: 22px; /* Ajusta o tamanho dos ícones */
+    font-size: 10px; /* Ajusta o tamanho dos ícones */
     margin-right: 5px; /* Dá um espaçamento entre o ícone e o texto */
 }
