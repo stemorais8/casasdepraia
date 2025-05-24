@@ -1,63 +1,60 @@
 /*Estilização do BODY da página*/
 body{
     margin: 0;
-    border: 0;
-    font-family: 'Tahoma', 'Arial';
+    border: 0; 
+    font-family: 'Century Gothic', 'Arial';
+    color:rgb(95, 94, 94);
+    background: linear-gradient( #A2B9AD, #f3f0f0, #E0E0E0, #CADDE1); 
+   
 }
-/*Estização do HEADER da página*/
+/*EStilização do HEADER da página*/
 header{
-    background-color: rgb(78, 8, 116);
-    padding: 10px 0 20px 200px;
-}
-
-main {
-    background: linear-gradient(#FFFFFF, #dad4f1);
-    margin: 0;
-    padding: 15px;
+   background-color: white;
 }
 
 .logo {
-    width: 10%;
+    width: 15%;
 }
-/*Estilização do MENU do site*/
-nav {
-    color: white;
-    font-size: 26;
-    right: 3%;
-    top: -5%;
-    position: absolute;
+/*Estilização do MENU no site*/
+nav{
+    font-weight: bold;    
+    font-size: 28;
+    right: 100px;
+    top: 50px; 
+    position : absolute 
 }
 
-nav li{
-    display: inline;
+nav li {
+    display: inline; 
     margin-right: 40px;
-    font-family: cursive;
-    font-size: 35px;
 }
 
-nav li a{
-    color: white;
-    text-decoration: none;
-}
-
-/*Estilização da DIV do header */
+/* Estilização da DIV do header*/
 .divHeader {
     position: relative;
+
 }
+.banner {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    border: 0;
+    object-fit: cover;
+}
+
 
 /*Título*/
 .contatos-titulo{
-	font-size: 40px;
-	font-weight: bold;
-	color:  rgb(78, 8, 116);
-    font-family: cursive;
+	 font-size: 35px; 
+    font-weight: bold;
+    color: rgb(247, 244, 244);
     list-style: none;
+    font-family: 'Century Gothic', 'Arial';
 }
-.contatos-item:before{
-	content: "🐈";
-}
-.texto-contatos{
+.contatos-item{
     padding-left: 5%;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
 }
 
 /*Formulário*/
@@ -89,7 +86,7 @@ fieldset{
 	width: 40%;
 	padding: 15px 0;
     margin-bottom: 20px;
-	background: orange;
+	background: rgb(236, 152, 49);
 	color: white;
 	font-weight: bold;
 	border: none;
@@ -98,7 +95,7 @@ fieldset{
 	cursor: pointer;
 }
 .enviar:hover{
-	background: darkorange;
+	background: rgb(236, 152, 49);
 	transform: scale(1.2);
 }
 
@@ -120,7 +117,6 @@ fieldset{
     top: 75px;
 }
 footer {
-    font-weight: bold ;
     color: rgb(93, 127, 129);
     display : inline-block; 
 

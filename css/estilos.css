@@ -122,20 +122,18 @@ nav li {
 /*Estilização do FOOTER*/
 .logofooter{
     width: 15%;
-    /* padding-left: 3%; */
-    /* display : inline-block;  */
     position: relative;
     top: 75px;
 }
 footer {
-    font-weight: bold ;
+
     color: rgb(93, 127, 129);
     display : inline-block; 
 
     width: 100%; 
     font-size: 25px; 
     background: linear-gradient( #A0B9AF,#CADDE1, #FFFFFF);
-   
+    font-weight: normal;
 
 }
 
