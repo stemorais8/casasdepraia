@@ -1,0 +1,128 @@
+/*Estilização do BODY da página*/
+body{
+    margin: 0;
+    border: 0; 
+    font-family: 'Century Gothic', 'Arial';
+    color: rgb(113, 114, 114);
+    background: linear-gradient(#FFFFFF, #CADDE1, #A2B9AD); 
+}
+
+/*Formatação de fontes TEXTOS*/
+.fonte_textos{
+    font-size: 30px;
+    line-height: 2;
+}
+
+/*EStilização do HEADER da página*/
+header{
+ background: white; 
+  font-weight: bold;
+.logo {
+    width: 15%;
+}
+}
+/*Estilização do MENU no site*/
+nav{
+ 
+    font-size: 28;
+    right: 100px;
+    top: 50px; 
+    position : absolute 
+}
+
+nav li {
+    display: inline; 
+    margin-right: 40px;
+}
+
+/* Estilização da DIV do header*/
+.divHeader {
+    position: relative;
+
+
+}
+
+/*Título*/
+.casas-titulo{
+    font-size: 35px; 
+    font-weight: bold;
+    color: rgb(247, 244, 244);
+    list-style: none;
+    font-family: 'Century Gothic', 'Arial';
+}
+.casas-item:before{
+    content: "⛱️";
+}
+/*Texto dos produtos */
+.texto-casas{
+    padding-left:5%; 
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+}
+.container {
+    display :flex; 
+    justify-content: center;
+    flex-wrap :wrap;
+    gap:40px;
+    padding-bottom: 20px;
+    width:50%;
+    margin: 0 auto;
+
+}
+.card{
+    background: white; 
+    width: 380px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px black;  
+}
+
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card img{ 
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+.card h2{
+    margin: 10px 87px; 
+}
+.card p{
+    margin: 10px 60px; 
+}
+
+/*Estilização do FOOTER*/
+.logofooter{
+    width: 13%;
+    /* padding-left: 3%; */
+    /* display : inline-block;  */
+    position: relative;
+    top: 75px;
+}
+footer {
+    font-weight: bold ;
+    color: rgb(93, 127, 129);
+    display : inline-block; 
+
+    width: 100%; 
+    font-size: 25px;
+    
+}
+
+
+.Midia {
+    font-family: 'Century Gothic', 'Arial';
+    font-size: 25px; /* Mantém o tamanho original */
+    font-weight: bold; /* Mantém o peso da fonte */
+    text-align: right;
+    
+}
+
+.fa-brands {
+    font-family: "Font Awesome 6 Brands"; /* Evita que altere a fonte do texto */
+    font-size: 10px; /* Ajusta o tamanho dos ícones */
+    margin-right: 5px; /* Dá um espaçamento entre o ícone e o texto */
+}
